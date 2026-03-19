@@ -1,0 +1,43 @@
+# Large binary / data files — not needed inside the image
+*.tgz
+*.zip
+*.oni
+*.bag
+*.png
+*.jpg
+*.jpeg
+*.ply
+*.stl
+
+# Dataset directories (mount at runtime via -v instead)
+rgbd_dataset_*/
+build/rgbd_dataset_*/
+ply_frames/
+build/ply_frames/
+vis_mask/
+build/vis_mask/
+depth_masked/
+build/depth_masked/
+
+# Build artefacts (will be rebuilt inside Docker)
+build/CMakeFiles/
+build/CMakeCache.txt
+build/cmake_install.cmake
+build/Makefile
+build/*.a
+build/run_kinfu_oni
+build/run_kinfu_tum
+
+# Output meshes
+build/*.ply
+build/*.stl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor / OS files
+.DS_Store
+*.swp
+*~

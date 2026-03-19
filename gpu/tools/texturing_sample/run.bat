@@ -1,0 +1,1 @@
+@mesh_texturing.exe ./ model_file.ply texturing_sample config.yml

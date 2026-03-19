@@ -1,0 +1,35 @@
+# Compiled binaries
+build/run_kinfu_oni
+build/run_kinfu_tum
+build/libkinfu_opencl.a
+
+# CMake build artefacts
+build/CMakeFiles/
+build/CMakeCache.txt
+build/cmake_install.cmake
+build/Makefile
+
+# Output meshes
+build/*.ply
+build/*.stl
+
+# Dataset files (mount at runtime)
+build/rgbd_dataset_*/
+build/*.tgz
+build/*.tgz.*
+
+# Preprocessing output (generated at runtime)
+build/depth_masked/
+build/ply_frames/
+build/vis_mask/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor / OS
+.DS_Store
+*.swp
+*~
+*.bak

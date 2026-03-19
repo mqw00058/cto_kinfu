@@ -1,0 +1,23 @@
+# Build artifacts (not the source build/ directory)
+gpu/build/CMakeFiles/
+gpu/build/CMakeCache.txt
+gpu/build/cmake_install.cmake
+gpu/build/Makefile
+gpu/build/*.a
+gpu/build/run_kinfu_oni
+gpu/build/run_kinfu_tum
+gpu/build/rgbd_dataset_*/
+gpu/build/depth_masked/
+gpu/build/ply_frames/
+gpu/build/vis_mask/
+gpu/build/__pycache__/
+gpu/build/*.pyc
+gpu/build/*.pyo
+gpu/build/*.ply
+gpu/build/*.stl
+*.zip
+*.png
+*.tgz
+*.ply
+*.stl
+*.a
